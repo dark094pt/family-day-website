@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dia da Família</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background-color: #2980b9;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+    .event-card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 15px 20px;
+      margin-bottom: 20px;
+    }
+    .event-title {
+      margin: 0 0 5px 0;
+      color: #34495e;
+      font-size: 1.3rem;
+    }
+    .event-time {
+      font-weight: bold;
+      color: #2980b9;
+      margin-bottom: 10px;
+    }
+    .event-description {
+      margin: 0;
+      color: #555;
+    }
+    address {
+      font-style: normal;
+      font-weight: bold;
+      color: #34495e;
+      margin-bottom: 15px;
+    }
+    .map-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .map-container iframe {
+      width: 100%;
+      max-width: 600px;
+      height: 450px;
+      border: none;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dia da Família</h1>
+  </header>
+  <nav>
+    <a href="#home">Início</a>
+    <a href="#eventos">Eventos</a>
+    <a href="#localizacao">Localização</a>
+  </nav>
+  <section id="home">
+    <h2>Bem-vindo ao Dia da Família</h2>
+    <p>Junte-se a nós para um dia especial cheio de diversão, eventos e celebração da nossa comunidade escolar.</p>
+    <p>Este é um evento dedicado a reunir famílias, alunos e professores para celebrar a união e o espírito da nossa escola. Prepare-se para um dia repleto de atividades, jogos, apresentações e muito mais!</p>
+  </section>
+  <section id="eventos">
+    <h2>Eventos do Dia da Família</h2>
+    <div class="event-card">
+      <h3 class="event-title">Abertura do Evento</h3>
+      <p class="event-time">09:00 - 09:30</p>
+      <p class="event-description">Boas-vindas e introdução ao Dia da Família.</p>
+    </div>
+    <div class="event-card">
+      <h3 class="event-title">Atividades para Crianças</h3>
+      <p class="event-time">09:30 - 11:00</p>
+      <p class="event-description">Jogos, pinturas faciais e outras atividades divertidas para as crianças.</p>
+    </div>
+    <div class="event-card">
+      <h3 class="event-title">Apresentações dos Alunos</h3>
+      <p class="event-time">11:00 - 12:30</p>
+      <p class="event-description">Apresentações musicais e teatrais pelos alunos da escola.</p>
+    </div>
+    <div class="event-card">
+      <h3 class="event-title">Almoço Comunitário</h3>
+      <p class="event-time">12:30 - 14:00</p>
+      <p class="event-description">Almoço partilhado para todos os participantes.</p>
+    </div>
+    <div class="event-card">
+      <h3 class="event-title">Jogos e Competições</h3>
+      <p class="event-time">14:00 - 16:00</p>
+      <p class="event-description">Competições esportivas e jogos para todas as idades.</p>
+    </div>
+    <div class="event-card">
+      <h3 class="event-title">Encerramento</h3>
+      <p class="event-time">16:00 - 17:00</p>
+      <p class="event-description">Agradecimentos e despedida.</p>
+    </div>
+  </section>
+  <section id="localizacao">
+    <h2>Localização do Evento</h2>
+    <p>O Dia da Família será realizado na escola Perpétuo, localizada no seguinte endereço:</p>
+    <address>
+      Rua de Costa Cabral 128<br />
+      4200-208 Porto, Portugal<br />
+    </address>
+    <p>Para mais informações, visite a página de contactos da escola:</p>
+    <a href="https://perpetuo.pt/contactos/" target="_blank" rel="noopener noreferrer">https://perpetuo.pt/contactos/</a>
+    <div class="map-container">
+      <iframe
+        title="Localização do Perpétuo"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.7046703736364!2d-8.607536709271635!3d41.16279519740419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd246533e31ceed7%3A0xfd5fc3d0c4cebd3a!2sEPPS!5e0!3m2!1spt-PT!2spt!4v1747665644542!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </section>
+  <footer>
+    <p>© 2024 Dia da Família - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
